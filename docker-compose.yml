@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  usq-test:
+    container_name: yoti-test
+    build:
+      context: .
+    volumes:
+      - ./:/app
